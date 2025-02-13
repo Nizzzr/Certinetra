@@ -52,8 +52,8 @@ export function App() {
 
   return (
     <div className={"pages"}>
-      <img src="/reown.svg" alt="Reown" style={{ width: '150px', height: '150px' }} />
-      <h1>AppKit Wagmi React dApp Example</h1>
+      <img src="/EVMQR.png" alt="Evm" style={{ width: '150px', height: '150px' }} />
+      <h1>Certinetra</h1>
       <WagmiProvider config={wagmiAdapter.wagmiConfig}>
         <QueryClientProvider client={queryClient}>
             <appkit-button />
@@ -62,7 +62,7 @@ export function App() {
             <div className="advice">
               <p>
                 Bantu support buat beli kopi<br/>
-                <a href="https://saweria.co/NizarGTR" target="_blank" className="link-button" rel="Patungan">Buat Beli Kopi</a> to get your own.
+                <a href="https://saweria.co/NizarGTR" target="_blank" className="link-button" rel="Patungan">Patungan</a>
               </p>
             </div>
             <InfoList hash={transactionHash} signedMsg={signedMsg} balance={balance}/>
