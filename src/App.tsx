@@ -52,6 +52,7 @@ export function App() {
 
   return (
     <div className={"pages"}>
+      <br />
       <img src="/EVMQR.png" alt="Evm" style={{ width: '150px', height: '150px' }} />
       <h1>Certinetra</h1>
       <WagmiProvider config={wagmiAdapter.wagmiConfig}>
